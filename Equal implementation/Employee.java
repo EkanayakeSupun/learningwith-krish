@@ -52,7 +52,7 @@ class Employee{
 		return this.address;
 	}
 	
-	@Override
+	
 	public boolean equals(Object obj){
 		Employee newEmployee=(Employee) obj;
 		return this.getEmpId()==newEmployee.getEmpId() && this.getEmpCode()==newEmployee.getEmpCode();
